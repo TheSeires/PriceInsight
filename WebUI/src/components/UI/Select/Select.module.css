@@ -1,0 +1,76 @@
+.select-component :global(.select__control) {
+    border-radius: var(--border-radius) !important;
+    outline: 1px solid var(--clr-border-light) !important;
+}
+
+.select-component :global(.select__control),
+.select-component :global(.select__menu) {
+    background-color: var(--clr-input) !important;
+    border-radius: var(--border-radius) !important;
+    border: none !important;
+}
+
+.select-component :global(.select__control:focus-within) {
+    border: none !important;
+    box-shadow: var(--box-shadow-input-on-focus) !important;
+}
+
+:global(html.dark) .select-component :global(.select__control:focus-within) {
+    outline: 1px solid var(--clr-border) !important;
+}
+
+.select-component :global(.select__input) {
+    margin-left: 0.375rem !important;
+}
+
+.select-component :global(.select__single-value) {
+    color: var(--clr-text) !important;
+}
+
+.select-component :global(.select__placeholder) {
+    color: var(--clr-text-placeholder) !important;
+    margin-left: 0.5rem !important;
+}
+
+.select-component :global(.select__input),
+.select-component :global(.select__input:focus-visible),
+.select-component :global(.select__input.invalid) {
+    color: var(--clr-text) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+.select-component :global(.select__indicator-separator) {
+    background-color: var(--clr-border-light) !important;
+}
+
+.select-component :global(.select__menu) {
+    border-radius: var(--border-radius) !important;
+    box-shadow: var(--box-shadow) !important;
+}
+
+.select-component :global(.select__option) {
+    border-radius: var(--border-radius) !important;
+}
+
+:global(html:not(.dark)) .select-component :global(.select__option) {
+    color: var(--clr-black) !important;
+}
+
+.select-component :global(.select__option:hover),
+.select-component :global(.select__option--is-focused) {
+    background-color: rgba(var(--clr-primary-rgb), 0.2) !important;
+    color: var(--clr-white-light) !important;
+}
+
+:global(html:not(.dark)) .select-component :global(.select__option:hover),
+:global(html:not(.dark)) .select-component :global(.select__option--is-focused) {
+    color: var(--clr-black) !important;
+}
+
+.select-component :global(.select__option--is-selected) {
+    background-color: var(--clr-primary) !important;
+    color: var(--clr-black) !important;
+    font-weight: 600 !important;
+}

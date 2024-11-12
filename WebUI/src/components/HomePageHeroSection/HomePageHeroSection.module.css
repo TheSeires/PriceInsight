@@ -1,0 +1,28 @@
+.wave-container {
+    --_height: 100px;
+    position: relative;
+    height: var(--_height);
+    filter: blur(6px);
+}
+
+.wave::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: var(--_height);
+    width: 100vw;
+}
+
+@media (max-width: 640px) {
+    .wave-container {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        overflow: hidden;
+    }
+
+    .wave::before {
+        width: 200%;
+    }
+}

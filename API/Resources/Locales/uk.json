@@ -1,0 +1,189 @@
+{
+  "header": {
+    "showNavMenu": "Показати навігаційне меню",
+    "hero": {
+      "heading": "Знаходьте найкращі пропозиції на продукти",
+      "paragraph": "Порівнюйте ціни в різних супермаркетах за лічені секунди!"
+    },
+    "nav": {
+      "deals": "Акції",
+      "catalog": "Каталог",
+      "administration": "Адміністрування"
+    }
+  },
+  "auth": {
+    "common": {
+      "validation": {
+        "email": {
+          "required": "Електронна пошта є обов'язковою",
+          "invalidEmail": "Невірна адреса електронної пошти"
+        },
+        "password": {
+          "required": "Необхідно ввести пароль"
+        }
+      }
+    },
+    "login": {
+      "validation": {
+        "invalidPassword": "Невірний пароль",
+        "unconfirmedEmail": "Будь ласка, підтвердьте свою електронну пошту перед входом",
+        "isLockedOut": "Ваш обліковий запис заблоковано, оскільки досягнуто ліміту невдалих спроб входу, будь ласка, повторіть спробу пізніше",
+        "isNotAllowed": "Вам заборонено входити в обліковий запис",
+        "requiresTwoFactor": "Для входу в обліковий запис потрібна двофакторна авторизація"
+      }
+    },
+    "registration": {
+      "success": "Успішно зареєстровано обліковий запис",
+      "validation": {
+        "username": {
+          "required": "Ім'я користувача є обов'язковим",
+          "length": "Ім'я користувача повинно містити щонайменше 3 символи"
+        },
+        "email": {
+          "invalidFormat": "Електронна пошта має невірний формат",
+          "taken": "Ця електронна адреса вже зайнята"
+        },
+        "password": {
+          "length": "Пароль повинен містити щонайменше 8 символів",
+          "mismatch": "Паролі повинні збігатися"
+        }
+      },
+      "apiResponse": {
+        "failedToSendEmail": "Не вдалося відправити лист з підтвердженням. Будь ласка, повторіть спробу пізніше"
+      }
+    },
+    "emailConfirmation": {
+      "validation": {
+        "invalidEmailOrToken": "Невірна адреса електронної пошти або токен",
+        "alreadyConfirmed": "Ваша електронна пошта вже підтверджена"
+      }
+    }
+  },
+  "catalog": {
+    "noProductsMatchingCriteria": "Не знайдено товарів, що відповідають вашим критеріям"
+  },
+  "common": {
+    "action": "Дія",
+    "update": "Оновити",
+    "updated": "Оновлено",
+    "profile": "Профіль",
+    "noFollowedProducts": "Схоже, що ви не стежите за жодним продуктом. Знайдіть товари, які вас цікавлять, та відстежуйте їх для швидкого доступу",
+    "productsYouFollow": "Продукти, які ви відстежуєте",
+    "or": "Або",
+    "missingOrInvalidBodyParams": "Відсутні або невірні параметри тіла запиту",
+    "unexpectedError": "Виникла непередбачувана помилка",
+    "auth": {
+      "login": "Увійти",
+      "logout": "Вийти",
+      "register": "Зареєструватись",
+      "username": "Ім'я користувача",
+      "password": "Пароль",
+      "confirmPassword": "Підтвердьте пароль"
+    },
+    "paginationText": "Сторінка {{current}} з {{total}}",
+    "categorizationIssues": "Відсутні відношення категорій",
+    "createCategoryMapping": "Створити відношення категорій",
+    "createCategory": "Створити категорію",
+    "updateCategory": "Оновити категорію",
+    "categorize": "Категоризувати",
+    "categories": "Категорії",
+    "category": "Категорія",
+    "categoryOf": "Категорія {{market}}",
+    "targetCategory": "Цільова категорія",
+    "optionalField": "Необов'язкове поле",
+    "submit": "Надіслати",
+    "noTableItems": "Схоже, що тут ще немає жодного запису",
+    "newArrivals": "Нові надходження",
+    "discountedProducts": "Акційні товари",
+    "viewAll": "Переглянути всі",
+    "forceCrawling": "Примусове сканування",
+    "marketPrices": "Ціни в супермаркетах",
+    "view": "Переглянути",
+    "attributes": "Характеристики",
+    "follow": "Відслідковувати",
+    "unfollow": "Не відслідковувати",
+    "following": "Відслідковується",
+    "search": "Пошук",
+    "priceRange": "Діапазон цін",
+    "validation": {
+      "query": {
+        "invalidIdFormat": "Невірний формат параметру id"
+      }
+    }
+  },
+  "emailService": {
+    "common": {
+      "greeting": "Привіт, {{name}}!"
+    },
+    "registration": {
+      "emailTitle": "Підтвердження електронної пошти",
+      "requestToConfirmEmail": "Дякуємо за реєстрацію на нашій платформі. Будь ласка, підтвердьте свою електронну адресу, перейшовши за посиланням нижче",
+      "confirmEmail": "Підтвердити електронну пошту",
+      "ignoreIfHaveNotRegistered": "Якщо ви не створювали обліковий запис у нас, можете без вагань ігнорувати цей лист."
+    }
+  },
+  "categories": {
+    "discountedProducts": "Акційні товари",
+    "officeSupplies": "Канцелярські товари",
+    "frozenProducts": "Заморожені продукти",
+    "vegetablesAndFruits": "Овочі та фрукти",
+    "groceries": "Бакалія",
+    "dairyProductsAndEggs": "Молочні продукти та яйця",
+    "alcohol": "Алкоголь",
+    "nonAlcoholicBeverages": "Безалкогольні напої",
+    "cheeses": "Сири",
+    "meat": "М'ясо",
+    "confectionery": "Кондитерські вироби",
+    "fishAndSeafood": "Риба і морепродукти",
+    "bakeryProducts": "Хлібобулочні вироби",
+    "coffeeAndTea": "Кава, чай",
+    "chipsAndSnacks": "Чипси, снеки",
+    "meatProducts": "М'ясні продукти",
+    "babyFood": "Дитяче харчування",
+    "japaneseCuisine": "Японська кухня",
+    "preparedFoods": "Готові страви",
+    "babyProducts": "Дитячі товари",
+    "householdChemicals": "Побутова хімія",
+    "hygieneAndCosmetics": "Гігієна та косметика",
+    "householdGoods": "Товари для дому",
+    "goodsForAnimals": "Товари для тварин",
+    "tobaccoProducts": "Тютюнові вироби",
+    "certificatesAndPaymentCards": "Сертифікати та платіжні картки",
+    "meatFishPoultry": "М'ясо, риба, птиця",
+    "cannedGoodsOilVinegar": "Консерви, олія, оцет",
+    "saucesAndSpices": "Соуси та спеції"
+  },
+  "models": {
+    "user": {
+      "validation": {
+        "idNotFound": "Користувача з id = '{{id}}' не знайдено"
+      }
+    },
+    "category": {
+      "name": "Назва",
+      "parentId": "Id батьківської категорії",
+      "nameTranslationKey": "Ключ для перекладу",
+      "shortId": "Короткий Id",
+      "translatedName": "Перекладена назва",
+      "validation": {
+        "nameIsTooLong": "Назва надто довга",
+        "invalidParentIdFormat": "Невірний формат Id батьківської категорії",
+        "alreadyExists": "Категорія з такою назвою вже існує",
+        "shortIdRequired": "Короткий Id є обов'язковим"
+      }
+    },
+    "categoryMapping": {
+      "validation": {
+        "invalidMarketId": "Невірний Id супермаркету",
+        "invalidTargetCategoryId": "Невірний Id цільової категорії",
+        "alreadyExists": "Таке співвідношення категорій вже існує"
+      }
+    },
+    "categorizationIssue": {
+      "sourceCategory": "Категорія ресурсу",
+      "sourceProductUrl": "Посилання на продукт ресурсу",
+      "marketName": "Назва супермаркету",
+      "marketId": "Ідентифікатор супермаркету"
+    }
+  }
+}

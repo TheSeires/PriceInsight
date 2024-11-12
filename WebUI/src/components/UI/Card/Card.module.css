@@ -1,0 +1,30 @@
+.card {
+    position: relative;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: inherit;
+    background-color: rgba(var(--clr-panel-rgb), 1);
+    transform: translate(-50%, -50%);
+    height: 0;
+    width: 0;
+    transition: var(--transition-base);
+    z-index: -1;
+}
+
+.card:hover::before {
+    height: 101%;
+    width: 101%;
+}
+
+.card-category {
+    color: var(--clr-black-lighter);
+}
+
+:global(html.dark) .card-category {
+    color: var(--clr-white-dark);
+}

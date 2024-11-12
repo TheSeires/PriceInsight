@@ -1,0 +1,70 @@
+.modal-backdrop.opening-modal {
+    opacity: 0;
+    animation: fade-in 0.4s var(--timing-function) reverse forwards;
+}
+
+.modal-backdrop.closing-modal {
+    opacity: 1;
+    animation: fade-in 0.4s var(--timing-function) forwards;
+}
+
+.modal {
+    --_anim-time: 0.35s;
+    max-width: 600px;
+    width: 100%;
+}
+
+.modal.opening-modal {
+    opacity: 0;
+    animation: open-modal var(--_anim-time) var(--timing-function) forwards,
+    fade-in var(--_anim-time) var(--timing-function) reverse forwards;
+}
+
+.modal.closing-modal {
+    animation: open-modal var(--_anim-time) var(--timing-function) reverse forwards,
+    fade-in var(--_anim-time) var(--timing-function) forwards;
+}
+
+:global(html:not(.dark)) .modal {
+    background-color: rgba(var(--clr-panel-rgb), 0.9) !important;
+}
+
+.modal :global(button[type='submit']) {
+    padding-inline: 1.5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-bottom: 1px solid var(--clr-border-neutral);
+}
+
+.body {
+    font-size: 0.875rem;
+    color: var(--clr-white-neutral);
+    padding: 15px 20px;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes open-modal {
+    0% {
+        transform: scale(0.8) translateY(1000px);
+    }
+    100% {
+        transform: scale(1) translateY(0px);
+    }
+}

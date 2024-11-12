@@ -1,0 +1,33 @@
+.product-carousel {
+    --slide-size: 50% !important;
+}
+
+@media (min-width: 400px) {
+    .product-carousel {
+        --slide-size: 50% !important;
+    }
+}
+
+@media (min-width: 640px) {
+    .product-carousel {
+        --slide-size: 33.33% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .product-carousel {
+        --slide-size: 25% !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .product-carousel {
+        --slide-size: 20% !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .product-carousel {
+        --slide-size: 16.66% !important;
+    }
+}

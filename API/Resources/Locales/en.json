@@ -1,0 +1,189 @@
+{
+  "header": {
+    "showNavMenu": "Show navigation menu",
+    "hero": {
+      "heading": "Find the best deals on groceries",
+      "paragraph": "Compare prices across supermarkets in seconds!"
+    },
+    "nav": {
+      "deals": "Deals",
+      "catalog": "Catalog",
+      "administration": "Administration"
+    }
+  },
+  "auth": {
+    "common": {
+      "validation": {
+        "email": {
+          "required": "Email is required",
+          "invalidEmail": "Invalid email"
+        },
+        "password": {
+          "required": "Password is required"
+        }
+      }
+    },
+    "login": {
+      "validation": {
+        "invalidPassword": "Invalid password",
+        "unconfirmedEmail": "Please, confirm your email before logging in",
+        "isLockedOut": "Your account has been locked out because it reached the limit of failed login attempts, please try again later",
+        "isNotAllowed": "You are not allowed to login",
+        "requiresTwoFactor": "Your account requires two-factor authorization in order to login"
+      }
+    },
+    "registration": {
+      "success": "Successfully registered account",
+      "validation": {
+        "username": {
+          "required": "Username is required",
+          "length": "Username must be at least 3 characters long"
+        },
+        "email": {
+          "invalidFormat": "Email has invalid format",
+          "taken": "This email address is already taken"
+        },
+        "password": {
+          "length": "Password must be at least 8 characters long",
+          "mismatch": "Passwords must match"
+        }
+      },
+      "apiResponse": {
+        "failedToSendEmail": "Failed to send a confirmation email. Please, try again later"
+      }
+    },
+    "emailConfirmation": {
+      "validation": {
+        "invalidEmailOrToken": "Invalid email or token",
+        "alreadyConfirmed": "Your email has already been confirmed"
+      }
+    }
+  },
+  "catalog": {
+    "noProductsMatchingCriteria": "No products found matching your criteria"
+  },
+  "common": {
+    "action": "Action",
+    "update": "Update",
+    "updated": "Updated",
+    "profile": "Profile",
+    "noFollowedProducts": "It looks like you haven’t followed any products. Find products that interest you and follow them for quick access",
+    "productsYouFollow": "Products you follow",
+    "or": "Or",
+    "missingOrInvalidBodyParams": "Missing or invalid parameters of the request body",
+    "unexpectedError": "An unexpected error occurred",
+    "auth": {
+      "login": "Sign in",
+      "logout": "Sign out",
+      "register": "Sign up",
+      "username": "Username",
+      "password": "Password",
+      "confirmPassword": "Confirm password"
+    },
+    "paginationText": "Page {{current}} of {{total}}",
+    "categorizationIssues": "Categorization issues",
+    "createCategoryMapping": "Create categorization rule",
+    "createCategory": "Create category",
+    "updateCategory": "Update category",
+    "categorize": "Categorize",
+    "categories": "Categories",
+    "category": "Category",
+    "categoryOf": "Category of {{market}}",
+    "targetCategory": "Target category",
+    "optionalField": "Optional field",
+    "submit": "Submit",
+    "noTableItems": "It looks like there are no entries yet",
+    "newArrivals": "New arrivals",
+    "discountedProducts": "Discounted products",
+    "viewAll": "View all",
+    "forceCrawling": "Force crawling",
+    "marketPrices": "Market prices",
+    "view": "View",
+    "attributes": "Attributes",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "following": "Following",
+    "search": "Search",
+    "priceRange": "Price range",
+    "validation": {
+      "query": {
+        "invalidIdFormat": "Invalid format of id parameter"
+      }
+    }
+  },
+  "emailService": {
+    "common": {
+      "greeting": "Hello, {{name}}!"
+    },
+    "registration": {
+      "emailTitle": "Email confirmation",
+      "requestToConfirmEmail": "Thank you for registering on our platform. Please confirm your email address by clicking the link below",
+      "confirmEmail": "Confirm Email",
+      "ignoreIfHaveNotRegistered": "If you have not created an account with us, you can safely ignore this email."
+    }
+  },
+  "categories": {
+    "discountedProducts": "Discounted products",
+    "officeSupplies": "Office supplies",
+    "frozenProducts": "Frozen products",
+    "vegetablesAndFruits": "Vegetables and fruits",
+    "groceries": "Groceries",
+    "dairyProductsAndEggs": "Dairy products and eggs",
+    "alcohol": "Alcohol",
+    "nonAlcoholicBeverages": "Non-alcoholic beverages",
+    "cheeses": "Cheeses",
+    "meat": "Meat",
+    "confectionery": "Confectionery",
+    "fishAndSeafood": "Fish and seafood",
+    "bakeryProducts": "Bakery products",
+    "coffeeAndTea": "Coffee, tea",
+    "chipsAndSnacks": "Chips, snacks",
+    "meatProducts": "Meat products",
+    "babyFood": "Baby food",
+    "japaneseCuisine": "Japanese cuisine",
+    "preparedFoods": "Prepared foods",
+    "babyProducts": "Baby products",
+    "householdChemicals": "Household chemicals",
+    "hygieneAndCosmetics": "Hygiene and cosmetics",
+    "householdGoods": "Household goods",
+    "goodsForAnimals": "Goods for animals",
+    "tobaccoProducts": "Tobacco products",
+    "certificatesAndPaymentCards": "Certificates and payment cards",
+    "meatFishPoultry": "Meat, fish, poultry",
+    "cannedGoodsOilVinegar": "Canned goods, oil, vinegar",
+    "saucesAndSpices": "Sauces and spices"
+  },
+  "models": {
+    "user": {
+      "validation": {
+        "idNotFound": "User with id = '{{id}}' not found"
+      }
+    },
+    "category": {
+      "name": "Name",
+      "parentId": "Parent category Id",
+      "nameTranslationKey": "Translation key",
+      "shortId": "Short Id",
+      "translatedName": "Translated name",
+      "validation": {
+        "nameIsTooLong": "Name is too long",
+        "invalidParentIdFormat": "Invalid format of parent category Id",
+        "alreadyExists": "Category with this name already exists",
+        "shortIdRequired": "Short Id is required"
+      }
+    },
+    "categoryMapping": {
+      "validation": {
+        "invalidMarketId": "Invalid market Id",
+        "invalidTargetCategoryId": "Invalid target category Id",
+        "alreadyExists": "This category mapping already exists"
+      }
+    },
+    "categorizationIssue": {
+      "sourceCategory": "Source category",
+      "sourceProductUrl": "Source product URL",
+      "marketName": "Market name",
+      "marketId": "Market Id"
+    }
+  }
+}

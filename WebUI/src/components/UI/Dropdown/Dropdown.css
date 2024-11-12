@@ -1,0 +1,50 @@
+:root {
+    --dropdown-bg-open: rgba(255, 255, 255, 0.4);
+    --dropdown-option-bg-on-hover: rgba(0, 0, 0, 0.05);
+    --dropdown-option-bg-selected: rgba(0, 0, 0, 0.1);
+}
+
+html.dark:root {
+    --dropdown-bg-open: rgba(255, 255, 255, 0.1);
+    --dropdown-option-bg-on-hover: rgba(0, 0, 0, 0.1);
+    --dropdown-option-bg-selected: rgba(0, 0, 0, 0.3);
+}
+
+.Dropdown-control {
+    background-color: var(--clr-panel);
+    border-color: var(--clr-border);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    backdrop-filter: var(--backdrop-filter-glassmorphism);
+    padding: 8px 28px 8px 10px;
+    text-align: start;
+}
+
+.Dropdown-root.is-open .Dropdown-control {
+    background-color: var(--dropdown-bg-open);
+}
+
+.Dropdown-placeholder,
+.Dropdown-option,
+.Dropdown-option:hover,
+.Dropdown-option.is-selected {
+    color: var(--clr-text);
+}
+
+.Dropdown-menu {
+    background-color: var(--dropdown-bg-open);
+    border-color: var(--clr-border);
+    border-radius: 0.375rem;
+    backdrop-filter: var(--backdrop-filter-glassmorphism);
+    width: 100%;
+    min-width: fit-content;
+}
+
+.Dropdown-option:hover {
+    background-color: var(--dropdown-option-bg-on-hover);
+}
+
+.Dropdown-option.is-selected {
+    background-color: var(--dropdown-option-bg-selected);
+    font-weight: 500;
+}

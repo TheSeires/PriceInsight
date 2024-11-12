@@ -48,7 +48,7 @@ const RangeSlider = (props: RangeSliderProps) => {
                 style={{
                     ...props.style,
                     height: '20px',
-                    width: '14px',
+                    width: '8px',
                     backgroundColor: 'var(--clr-primary)',
                     borderRadius: 'var(--border-radius)',
                 }}

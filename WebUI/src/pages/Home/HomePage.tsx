@@ -121,13 +121,6 @@ const HomePage: FC = () => {
                                 product={product}
                             />
                         )}
-                        customArrowsContent={() =>
-                            renderShowMoreFilteredProducts(() =>
-                                navigate(
-                                    `/catalog?categoryId=${newArrivals[0].categoryId}`
-                                )
-                            )
-                        }
                     />
                 </section>
             )}

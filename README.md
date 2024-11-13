@@ -1,6 +1,6 @@
 # PriceInsight
 
-**PriceInsight** is a web application that allows users to track product prices across different supermarkets. Built using an ASP.NET API and React SPA, the platform currently crawls prices from two Ukrainian supermarkets: **ATB** and **Rukavychka**. The application is designed to be easily extensible, allowing new supermarket crawlers to be added with minimal effort. Users can sign up to the site to be able to track specific products, which will allow them to keep track of the current prices of their favorite products.
+**PriceInsight** is a web application that allows users to track product prices across different supermarkets. Built using an ASP.NET API and React SPA, the platform currently crawls prices from two Ukrainian supermarkets: **ATB** and **Rukavychka**. The application is designed to be easily extensible, allowing new supermarket crawlers to be added with minimal effort. Users can sign up on the site to track specific products, allowing them to keep up to date with the latest prices of their favorite products.
 
 ## Features
 

@@ -12,11 +12,11 @@
 
 ## Screenshots
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="./Images/home-hero-section.png" alt="Home page, hero section" width="300"/>
-  <img src="./Images/home-product-sliders.png" alt="[Home page, product sliders" width="300"/>
-  <img src="./Images/product-page.png" alt="Product page" width="300"/>
-  <img src="./Images/profile.png" alt="Profile page" width="300"/>
-  <img src="./Images/catalog.png" alt="Catalog page" width="300"/>
+  <img src="./Images/home-hero-section.png" alt="Home page, hero section" width="400"/>
+  <img src="./Images/home-product-sliders.png" alt="[Home page, product sliders" width="400"/>
+  <img src="./Images/product-page.png" alt="Product page" width="400"/>
+  <img src="./Images/profile.png" alt="Profile page" width="400"/>
+  <img src="./Images/catalog.png" alt="Catalog page" width="400"/>
 </div>
 
 ## Extending the Crawler
